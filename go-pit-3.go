@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-func main() {
+func three() {
 	counts := make(map[string]int)
 	newCounts := make(map[string]int)
 	files := os.Args[1:]
