@@ -1,5 +1,7 @@
 package main
 
-func boot() {
-	one()
+import "go-pit/pit"
+
+func main() {
+	pit.PitFive()
 }

@@ -1,5 +1,5 @@
 // Main package for go pit of trial
-package main
+package pit
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func one() {
+func PitOne() {
 	var allArgString, sep string
 
 	for i:= 1; i < len(os.Args); i++ {

@@ -1,4 +1,4 @@
-package main
+package pit
 
 import (
 	"os"
@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-func three() {
+func PitThree() {
 	counts := make(map[string]int)
 	newCounts := make(map[string]int)
 	files := os.Args[1:]

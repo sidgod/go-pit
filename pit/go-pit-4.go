@@ -1,4 +1,4 @@
-package main
+package pit
 
 import (
 	"os"
@@ -10,7 +10,7 @@ import (
 	"io/ioutil"
 )
 
-func four() {
+func PitFour() {
 	start := time.Now()
 	for _, url := range os.Args[1:] {
 		var fixedUrl = url

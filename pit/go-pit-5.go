@@ -1,4 +1,4 @@
-package main
+package pit
 
 import (
 	"time"
@@ -10,7 +10,7 @@ import (
 	"strings"
 )
 
-func main() {
+func PitFive() {
 	start := time.Now()
 	ch := make(chan string)
 

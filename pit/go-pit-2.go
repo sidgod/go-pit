@@ -1,4 +1,4 @@
-package main
+package pit
 
 import (
 	"bufio"
@@ -6,7 +6,7 @@ import (
 	"fmt"
 )
 
-func two() {
+func PitTwo() {
 	counts := make(map[string]int)
 	input := bufio.NewScanner(os.Stdin)
 
